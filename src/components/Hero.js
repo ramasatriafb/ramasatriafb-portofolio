@@ -5,7 +5,7 @@ export default function Hero() {
     
     return (
         <>
-            <Container className="mb-5">
+            <Container className="mb-2">
                 <Row  >
                     <Col className="pict">
                         <div className="box-pict">
