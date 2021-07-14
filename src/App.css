@@ -314,18 +314,18 @@
   }
 
   .projects-section{
-    margin-top: 15px;
+    margin-top: 10px;
   }
   
   .project-ornament{
-    top: 500px;
+    top: 460px;
     height:850px !important;
     width: 400px;
     margin-top: 0 !important;
   }
 
   .projectsTag{
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
     font-size: 22px;
   }
 
