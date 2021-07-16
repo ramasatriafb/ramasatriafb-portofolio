@@ -7,7 +7,7 @@ export default function Footer() {
                     <Col xs={12} >
                     <h2 className="tagPro2 text-start mt-5 text-footer-tag">Get in Touch</h2>
                     <p className="paragraph-pro text-start text-footer-tag-paragraph" >
-                    For business inquiry please send email to  <a href="mailto:ramasatriafb@gmail.com"> ramasatriafb@gmail.com</a>
+                    For business inquiry please send email to  <a href="mailto:ramasatriafb@gmail.com" className="link-email"> ramasatriafb@gmail.com</a>
                     </p>
                     <div className="logo-footer">
                        <a
@@ -16,8 +16,8 @@ export default function Footer() {
                                 >
                                     <img
                                         src="/assets/in.svg"
-                                        alt="LinkedIn" className="icon-footer"
-                                        style={{textAlign: "left",backgroundColor: "#fff"}}
+                                        alt="LinkedIn" className="contact icon-footer"
+                                        style={{textAlign: "left",backgroundColor: "#fff", marginTop: "5px"}}
                                     />
                                 </a>
                                 <a

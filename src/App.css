@@ -57,13 +57,21 @@
   left: 140px;
   top: 100px;
 
-  background: #114A90;
-  border-radius: 80px 0px;
+  border-radius: 0 97px;
+background: #114A90;
+box-shadow: inset 16px -16px 32px #0b2f5b,
+            inset -16px 16px 32px #1765c5;
 }
-
+#box-pict{
+  transition: top ease 0.5s;
+}
+#box-pict:hover {
+  top: -5px;
+}
 .object-cover{
+  position: relative;
   object-fit: content;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
 }
 .tagPro{
@@ -89,13 +97,17 @@
   margin-top: 10px;
 }
 
+.contact:hover{
+  height: 40px;
+  width: 40px;
+}
 .paragraph-pro{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 27px;
-  margin-top: 50px;
+  margin-top: 20px;
   color: #201F25;
 }
 
@@ -110,6 +122,9 @@
   background-color: #114A90 !important;
 }
 
+.btn-primary:hover{
+  background-color: #0F3C73 !important;
+}
 .btn-text{
   padding: 10px 57px !important;
 }
@@ -121,11 +136,13 @@
 .project-ornament{
   position: absolute;
   width: 100%;
-  height: 560px;
+  height: 660px;
   left: 0px;
-  top: 680px;
+  top: 640px;
   margin-top: 3rem !important;
   background-color: #114A90;
+  box-shadow: inset 16px -16px 32px #0b2f5b,
+            inset -16px 16px 32px #1765c5;
 }
 
 .projectsTag{
@@ -135,8 +152,8 @@
   margin-top: 57px !important;
   margin-right: 82px;
   margin-left: 20px;
-  width: 500px !important;
-  height: 300px;
+  width: 600px !important;
+  height: 350px;
   left: 147px;
   top: 1111px;
   /* background: #C4C4C4; */
@@ -155,12 +172,28 @@
 
 }
 
+.link-detail:hover{
+  color: #fff;
+  font-weight: bold;
+}
+
 .link-detail2{
   
   color: #000;
 
 }
-
+.link-detail2:hover{
+  color: #1765c5;
+  font-weight: bold;
+}
+.link-email{
+  color: #114A90;
+  font-weight: bold;
+}
+.link-email:hover{
+  color: #1765c5;
+  font-weight: bold;
+}
 .colChance{
   width: 100%  !important;
   height: 400px;
@@ -179,6 +212,8 @@
   
   border-radius: 0 50px 0 50px;
   background: #114A90;
+  box-shadow: inset 16px -16px 32px #0b2f5b,
+            inset -16px 16px 32px #1765c5;
 }
 
 .ornament2{
@@ -237,6 +272,8 @@
   
   border-radius: 0 50px 0 50px;
   background: #114A90;
+  box-shadow: inset 16px -16px 32px #0b2f5b,
+            inset -16px 16px 32px #1765c5;
 }
 .icon-skill{
   height: 120px;

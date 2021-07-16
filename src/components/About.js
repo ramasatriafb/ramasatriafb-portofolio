@@ -8,9 +8,9 @@ export default function About() {
                     <Col xs={12} md={6}>
                         <div className="ornament-about">
                         <img
-                            src="/assets/pitch.png"
+                            src="/assets/man.png"
                             alt="Me"
-                            className="object-cover" style={{width: "80%",height: "90%"}}
+                            className="object-cover" style={{width: "100%",height: "100%"}}
                             />
                         </div>
                     </Col>
