@@ -156,10 +156,14 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
   height: 350px;
   left: 147px;
   top: 1111px;
+  transition: 2s !important;
   /* background: #C4C4C4; */
   border-radius: 25px;
 }
 
+.projects-box:hover {
+  transform: scale(1.1) !important; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 .link-detail{
   font-family: 'Poppins';
   margin-top: 28px !important;

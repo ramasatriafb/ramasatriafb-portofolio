@@ -2,55 +2,6 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { openMail } from '../utils';
 export default class Hero extends Component {
-    state = {
-        left: 0,
-        top: 0
-      }
-    
-      componentDidMount() {
-        // When the component is mounted, add your DOM listener.
-        document.addEventListener("mousemove", this.handleCursor);
-        // document.addEventListener("mouseleave", this.handleCursorLeave);
-      }
-    
-      componentWillUnmount() {
-        // Make sure to remove the DOM listener when the component is unmounted.
-        document.removeEventListener("mousemove", this.handleCursor);
-        // document.removeEventListener("mouseleave", this.handleCursorLeave);
-      }
-    
-      handleCursor = (e) => {
-          const width = document.getElementsByClassName('box').offsetWidth;
-          const height = document.getElementsByClassName('box').offsetHeight;
-       
-          var addX = 0;
-          var addY = 0;
-        if (e.clientX > width/2){
-            addX = 20;
-          }
-          if(e.clientX < width/2){
-            addX = -20;
-          }
-          if(e.clientY > height/2){
-            addY = 20;
-          }
-          if(e.clientY < height/2){
-            addY = -20;
-          }
-        //           $("#followC").css("top", e.clientY + addY)
-        //     .css("left", e.clientX + addX);
-        //   });
-          const cursor = document.getElementsByClassName('cursor')[0];     
-        //   cursor.setAttribute('style','top:'+e.clientY +'px;left:'+ e.clientX+'px;');
-        //   console.log(document.getElementsByClassName('pict'))
-        //   document.getElementsByClassName('pict')[0].addEventListener("mouseleave", this.handleCursorLeave);
-      }
-
-    //   handleCursorLeave = (e) => {
-       
-    //     const cursor = document.getElementsByClassName('cursor')[0];     
-    //     cursor.setAttribute('style','top:50%; left:50%;');
-    // }
       render(){
         return (
             <>

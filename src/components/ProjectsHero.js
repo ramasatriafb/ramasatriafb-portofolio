@@ -34,7 +34,7 @@ export default function ProjectsHero() {
                             <img data-aos="fade-right"
                             src="/assets/magic-desktop.png"
                             alt="Me"
-                            className="projects-box "
+                            className="projects-box " style={{marginLeft: "60px"}}
                             />
                             <a href="#index" className="link-detail">View Detail Project</a>
                             </Row>

@@ -13,6 +13,7 @@ import About from './components/About';
 import TechSkill from './components/TechSkill';
 import Footer from './components/Footer';
 
+
 function App() {
   const [pages, setPages] = React.useState('Home');
   console.log(pages);
@@ -35,3 +36,4 @@ function App() {
 }
 
 export default App;
+

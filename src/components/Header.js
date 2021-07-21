@@ -1,6 +1,8 @@
 
 import { Navbar, Container, Nav} from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 export default function Header({pages}) {
+    
     return (
         <>
             <Navbar expand="lg">
@@ -9,9 +11,11 @@ export default function Header({pages}) {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav mx-auto ">
                         <Nav className="ms-auto " >
-                            <Nav.Link className={`${pages ==='Home'? 'link-theme active' : 'link-theme hover'}`} href="#home">Home</Nav.Link>
-                            <Nav.Link className={`${pages ==='Projects'? 'link-theme active' : 'link-theme hover'}`} href="#link">Project</Nav.Link>
-                            <Nav.Link className="link-theme hover" href="https://wa.me/6282132282972" target="blank">Contact</Nav.Link>
+                        <Nav.Item><NavLink className= {`${pages ==='Home'? 'nav-link link-theme active' : 'nav-link link-theme hover'}`} exact to={"/"}>Home</NavLink></Nav.Item>
+                       
+                        <Nav.Item><NavLink className={`${pages ==='Projects'? 'nav-link link-theme active' : 'nav-link link-theme hover'}`} exact to={"/projects"}>Projects</NavLink></Nav.Item>
+                       
+                        <Nav.Link className="link-theme hover" href="https://wa.me/6282132282972" target="blank">Contact</Nav.Link>
                             
                         </Nav>
                        
