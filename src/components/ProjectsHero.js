@@ -1,5 +1,6 @@
 
 import { Row, Col, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 export default function ProjectsHero() {
     return (
         <>
@@ -23,9 +24,9 @@ export default function ProjectsHero() {
                             <img data-aos="fade-right"
                             src="/assets/magic-app.png"
                             alt="Me"
-                            className="projects-box "
+                            className="projects-box " title="MAGIC APP"
                             />
-                            <a href="#index" className="link-detail">View Detail Project</a>
+                            <Link to="/magic-projects" className="link-detail mt-5">View Detail Project</Link>
                             </Row>
                        
                         </Col>
@@ -34,9 +35,9 @@ export default function ProjectsHero() {
                             <img data-aos="fade-right"
                             src="/assets/magic-desktop.png"
                             alt="Me"
-                            className="projects-box " style={{marginLeft: "60px"}}
+                            className="projects-box " style={{marginLeft: "60px"}} title="MAGIC Desktop"
                             />
-                            <a href="#index" className="link-detail">View Detail Project</a>
+                            <a href="#index" className="link-detail mt-5">View Detail Project</a>
                             </Row>
                        
                         </Col>  

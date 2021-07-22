@@ -93,6 +93,51 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
   line-height: 72px;
 }
 
+.headerProject{
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 8px;
+  color: #201F25;
+  line-height: 72px;
+}
+
+.subHeaderProject{
+  color: #201F25;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.subParagraph{
+  color: #201F25;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.paragraph-project{
+  font-size: 16px;
+}
+.project-image{
+  width: 700px !important;
+  height: 420px;
+  margin: auto;
+}
+.mockup{
+  width: 500px;
+  height:100%;
+}
+
+.image-flow{
+  width: 800px;
+  height:100%;
+  margin:auto;
+}
+
+.final-result-project{
+  width:800px;
+  height:auto;
+  margin:auto;
+}
+
 .contact{
   margin-top: 10px;
 }
@@ -463,6 +508,37 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
       width: 80px;
       margin: 15px;
     }
+    .headerProject{
+      font-size: 18px;
+      margin-top: 8px;
+      line-height: 36px;
+    }
+    .project-image{
+      width: 100%;
+      height: auto;
+      margin: auto;
+    }
+    .mockup{
+      width: 100%;
+      height:auto;
+    }
+    .image-flow{
+      width: 100%;
+      height:auto;
+    }
+    .final-result-project{
+      width:100%;
+      height:auto;
+    }
+    .subHeaderProject{
+      font-size: 14px;
+    }
+    .subParagraph{
+      font-size: 16px;
+    }
+    .paragraph-project{
+      font-size: 14px;
+    }
     .text-footer-tag{
       font-size: 28px;
       margin-left: 28px;
@@ -474,7 +550,7 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
      .logo-footer{
        float: left;
        margin:25px;
-       margin-left: 28px;
+       margin-left: 50px;
      }
      .icon-footer{
       height: 20px;

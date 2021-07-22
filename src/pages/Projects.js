@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import '../App.css';
 import '../index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,22 +8,28 @@ import Chance from '../components/Chance';
 import Footer from '../components/Footer';
 import AOS from 'aos';
 import "aos/dist/aos.css";
-function Projects() {
-    
-const [pages, setPages] = React.useState('Projects');
-console.log(pages);
-useEffect(() => {
+class Projects extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      pages: "Projects"
+    };
+  }
+  componentDidMount() {
+    document.title = this.props.title
+  }
+  render(){
     AOS.init();
     AOS.refresh();
-  }, []);
-  return (
-    <div className="App">
-        <Header pages={pages}/>
-        <ProjectList/>
-        <Chance pages={pages}/>
-        <Footer/>
-    </div>
-  );
+    return (
+      <div className="App">
+          <Header pages={this.state.pages}/>
+          <ProjectList/>
+          <Chance pages={this.state.pages}/>
+          <Footer/>
+      </div>
+    );
+  }
 }
 
 export default Projects;

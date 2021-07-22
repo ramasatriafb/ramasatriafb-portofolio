@@ -2,7 +2,6 @@
 import { Navbar, Container, Nav} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 export default function Header({pages}) {
-    
     return (
         <>
             <Navbar expand="lg">

@@ -3,22 +3,32 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Projects from './pages/Projects';
-import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import MagicProjects from './pages/MagicProjects';
+import ScrollToTop from './helper/ScrollToTop';
+import SimpleReactLightbox from 'simple-react-lightbox';
 ReactDOM.render(
   <React.StrictMode>
-  {/* <App />  */}
+       <SimpleReactLightbox>
+    {/* <App />  */}
     {/* <Projects /> */}
     <Router>
-      {/* <Header/> */}
+    <ScrollToTop/>
       <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/projects" component={Projects} />
-        
+        <Route exact path="/" render={props => (
+          <App {...props} component={App} title="ramasatriafb." />
+        )} />
+        <Route path="/projects" render={props => (
+          <Projects {...props} component={Projects} title="Projects" />
+        )} />
+        <Route path="/magic-projects" render={props => (
+          <MagicProjects {...props} component={MagicProjects} title="MAGIC: Mobile Analytics Geospatial Intelligence" />
+        )}/>
+
       </Switch>
     </Router>
+    </SimpleReactLightbox>
   </React.StrictMode>,
   document.getElementById('root')
 );
