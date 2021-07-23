@@ -14,7 +14,7 @@ export default function ProjectList(){
                             alt="Me"
                             className="projects-box " title="MAGIC APP"
                             />
-                            <Link to="/magic-projects" className="link-detail link-detail2"> <img
+                            <Link to="/magic-project" className="link-detail link-detail2"> <img
                             src="/assets/edit.png"
                             alt="Edit"
                             style={{marginRight:"12px"}}
@@ -29,12 +29,12 @@ export default function ProjectList(){
                             alt="Me"
                             className="projects-box " title="MAGIC Desktop"
                             />
-                            <a href="#index" className="link-detail link-detail2">
+                            <Link to="/magic-desktop-project" className="link-detail link-detail2">
                             <img
                             src="/assets/edit.png"
                             alt="Edit"
                             style={{marginRight:"12px"}} 
-                            />View Detail Project</a>
+                            />View Detail Project</Link>
                         </Row>
                     
                     </Col>  
@@ -47,11 +47,11 @@ export default function ProjectList(){
                             alt="Me"
                             className="projects-box " title="DNS Monitoring"
                             />
-                            <a href="#index" className="link-detail link-detail2"> <img
+                            <Link to="/dns-monitoring-project" className="link-detail link-detail2"> <img
                             src="/assets/edit.png"
                             alt="Edit"
                             style={{marginRight:"12px"}}
-                            />View Detail Project</a>
+                            />View Detail Project</Link>
                         </Row>
                     
                     </Col>
@@ -62,12 +62,12 @@ export default function ProjectList(){
                             alt="Me"
                             className="projects-box " title="My Doctor"
                             />
-                            <a href="#index" className="link-detail link-detail2">
+                            <Link to="/my-doctor-project" className="link-detail link-detail2">
                             <img
                             src="/assets/edit.png"
                             alt="Edit"
                             style={{marginRight:"12px"}}
-                            />View Detail Project</a>
+                            />View Detail Project</Link>
                         </Row>
                     
                     </Col>  

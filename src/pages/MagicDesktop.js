@@ -12,12 +12,12 @@ import HowProjects from '../components/HowProjects';
 import { Row, Col, Container } from 'react-bootstrap';
 import MockupProject from '../components/MockupProject';
 import FinalResult from '../components/FinalResult';
-class MagicProjects extends React.Component{
+class MagicDekstop extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
             pages: "Projects",
-            title: "MAGIC APP"
+            title: "MAGIC Desktop"
         };
     }
     componentDidMount() {
@@ -50,7 +50,6 @@ class MagicProjects extends React.Component{
                         <h5 className="subParagraph text-start">Role & The User Audience</h5>
                         <Col xs={12} md={12}>
                             <p className="paragraph-project text-start" style={{marginTop: "37px"}}> I am  front end developer in this team, and I’m the main and only develop for this mobile app, so i do all the develop work for this app. From mockup, prototype, query , build API's, compiling  and i also involved in the user testing. </p>
-                            <p className="paragraph-project text-start" style={{marginTop: "37px"}}> The MAGIC application is intended for regional sales divisions and business network analysis that can be used by mobile </p>
                         </Col>
                     </Row>
 
@@ -108,4 +107,4 @@ class MagicProjects extends React.Component{
     
 }
 
-export default MagicProjects;
+export default MagicDekstop;

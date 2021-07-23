@@ -8,6 +8,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MagicProjects from './pages/MagicProjects';
 import ScrollToTop from './helper/ScrollToTop';
 import SimpleReactLightbox from 'simple-react-lightbox';
+import DNSMonitoring from './pages/DNSMonitoring';
+import MagicDekstop from './pages/MagicDesktop';
+import MyDoctorProject from './pages/MyDoctorProject';
 ReactDOM.render(
   <React.StrictMode>
        <SimpleReactLightbox>
@@ -22,8 +25,17 @@ ReactDOM.render(
         <Route path="/projects" render={props => (
           <Projects {...props} component={Projects} title="Projects" />
         )} />
-        <Route path="/magic-projects" render={props => (
+        <Route path="/magic-project" render={props => (
           <MagicProjects {...props} component={MagicProjects} title="MAGIC: Mobile Analytics Geospatial Intelligence" />
+        )}/>
+        <Route path="/magic-desktop-project" render={props => (
+          <MagicDekstop {...props} component={MagicDekstop} title="MAGIC Desktop: Desktop Analytics Geospatial Intelligence" />
+        )}/>
+        <Route path="/dns-monitoring-project" render={props => (
+          <DNSMonitoring {...props} component={DNSMonitoring} title="Design of DNS Traffic Monitoring System in Country-Code Top Level Domain (.id)" />
+        )}/>
+        <Route path="/my-doctor-project" render={props => (
+          <MyDoctorProject {...props} component={MyDoctorProject} title="Doctor App Consultation for Help Everyone and Everywhere"/>
         )}/>
 
       </Switch>

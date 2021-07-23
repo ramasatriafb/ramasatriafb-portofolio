@@ -1,6 +1,5 @@
 
 import { Row, Col, Container } from 'react-bootstrap';
-import "react-awesome-lightbox/build/style.css";
 import { SRLWrapper } from "simple-react-lightbox";
 export default function MockupProject() {
     const options = {

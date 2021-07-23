@@ -26,7 +26,7 @@ export default function ProjectsHero() {
                             alt="Me"
                             className="projects-box " title="MAGIC APP"
                             />
-                            <Link to="/magic-projects" className="link-detail mt-5">View Detail Project</Link>
+                            <Link to="/magic-project" className="link-detail mt-5">View Detail Project</Link>
                             </Row>
                        
                         </Col>
@@ -37,7 +37,7 @@ export default function ProjectsHero() {
                             alt="Me"
                             className="projects-box " style={{marginLeft: "60px"}} title="MAGIC Desktop"
                             />
-                            <a href="#index" className="link-detail mt-5">View Detail Project</a>
+                            <Link to="/magic-desktop-project" className="link-detail mt-5">View Detail Project</Link>
                             </Row>
                        
                         </Col>  
