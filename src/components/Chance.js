@@ -1,6 +1,7 @@
 
 import { Row, Col,Button, Container } from 'react-bootstrap';
 import { openMail } from '../utils';
+import { Link } from 'react-router-dom';
 export default function Chance({pages}) {
     return (
         <>
@@ -33,7 +34,7 @@ export default function Chance({pages}) {
                         
                     </Col>
                     <Col sm={6} xs={12}   className="my-auto">  
-                        <a href="#index" className="link-detail2">Show Project List</a>
+                        <Link to="/projects" className="link-detail2">Show Project List</Link>
                         <Button variant="primary" className="text-center btn-text me-5 mx-5 email-collaboration" onClick={openMail}>Email Me</Button>
                     </Col>
                     </Row>
