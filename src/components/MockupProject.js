@@ -14,7 +14,7 @@ export default function MockupProject({projects}) {
         desc1 = "The initial application design refers to the google maps application design where when opening the application, displays a map that shows the user's current location along with the closest BTS location points from the user's point. plus a layer button to select the map layer.";
         desc2 = "As the requirements and features developed, the desired application display changes to adjust the features so that the display is made more concise with only the search form, BTS classification filter, settings button and map layer button.";
     }else if (projects === 'DNS Monitoring'){
-        imageProject = "/assets/dns-mockup 1.png";
+        imageProject = "/assets/dns-mockup.png";
         userFlow = "/assets/General User Flow 1.png";
         desc1 = "In this project, we will implement application on Nawala's server that has been installed with Bro IDS sensors to capture network traffic data that has been tapped or mirrored from Nawala's Resolver with IP access xxx.xxx.xxx.245";
         desc2 = "Front-end UI built using Kibana for Log visualization on JavaScript-based Bro-IDS. Interaction data with Elasticsearch as the log data store.";
