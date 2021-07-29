@@ -63,7 +63,7 @@ class MagicProjects extends React.Component{
                     </Row>
 
             </Container>
-            <MockupProject/>
+            <MockupProject projects={this.state.title}/>
             <Container>
             <Row  className="mt-5">
                 <h5 className="subParagraph text-start">Problem Solving</h5>

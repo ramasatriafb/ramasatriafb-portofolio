@@ -6,7 +6,7 @@ export default function TechSkill() {
             <Container className="mb-5">
                 <Row >
                     <Col xs={12}>
-                    <h2 className="tagPro2 text-center tag-skill">Tech Skil</h2>
+                    <h2 className="tagPro2 text-center tag-skill">Tech Skills</h2>
                     <img data-aos="zoom-in"
                         src="/assets/html.png"
                         alt="html" className="icon-skill"

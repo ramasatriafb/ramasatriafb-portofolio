@@ -73,17 +73,39 @@ class DNSMonitoring extends React.Component {
                         <h5 className="subParagraph text-start">Dashboard Features</h5>
                         <Col xs={12} md={12}>
                             <ol type="A">
-                                <li className="text-start">Number of DNS Connectivity</li>
-                                <li className="text-start">Number of DNS Connectivity</li>
-                                <li className="text-start">Query Result</li>
-                                <li className="text-start"> Response Result</li>
-                                <li className="text-start">Query by Response Code</li>
-                                <li className="text-start">Query by Record Type</li>
-                                <li className="text-start">Top Queried Returning NXDOMAIN</li>
-                                <li className="text-start">Top Queried DNS Records</li>
-                                <li className="text-start"> Top 10 Responders</li>
-                                <li className="text-start">Top 10 Originators</li>
-                                <li className="text-start">IP Queried Malware</li>
+                                <li className="text-start">Number of DNS Connectivity <br/><br/><p>
+                                    <b>Explain: </b> Displays the number of DNS connections that have been stored in the Bro-IDS log.</p>
+                                    </li>
+                                <li className="text-start">Top Network Protocol <br/><br/><p>
+                                    <b>Explain: </b> to display what protocols access DNS.</p>
+                                    </li>
+                                <li className="text-start">Query Result <br/><br/><p>
+                                    <b>Explain: </b> Displays a graph of DNS Query traffic based on the time available on the network.</p>
+                                    </li>
+                                <li className="text-start"> Response Result <br/><br/><p>
+                                    <b>Explain: </b> Displays the traffic graph of the DNS Response based on the time on the network.</p>
+                                    </li>
+                                <li className="text-start">Query by Response Code <br/><br/><p>
+                                    <b>Explain: </b> to find out what Response Codes exist in DNS Query traffic and the amount at any time.</p>
+                                    </li>
+                                <li className="text-start">Query by Record Type <br/><br/><p>
+                                    <b>Explain: </b> Displays DNS Query traffic by time and Record Type to find out what Record Types exist in DNS Query traffic and the amount at any time.</p>
+                                    </li>
+                                <li className="text-start">Top Queried Returning NXDOMAIN <br/><br/><p>
+                                    <b>Explain: </b> Provides information from the query domain which occurs which is NXDOMAIN or an inactive domain and the number of occurrences.</p>
+                                    </li>
+                                <li className="text-start">Top Queried DNS Records <br/><br/><p>
+                                    <b>Explain: </b> provides information on the most accessed query domains on this network along with the number of occurrences.</p>
+                                    </li>
+                                <li className="text-start"> Top 10 Responders <br/><br/><p>
+                                    <b>Explain: </b> Displays information on the responder or IP that received the most query responses on the network.</p>
+                                    </li>
+                                <li className="text-start">Top 10 Originators <br/><br/><p>
+                                    <b>Explain: </b> Displays the originator or IP information that sent the most query requests on the network.</p>
+                                    </li>
+                                <li className="text-start">IP Queried Malware <br/><br/><p>
+                                    <b>Explain: </b> This is a superior feature of this application, which displays information, namely the identified IP performs a Query request to a domain that is identified as malware based on Malware Domains Query Detection.</p>
+                                    </li>
                             </ol>
                         </Col>
                     </Row>
@@ -161,7 +183,7 @@ class DNSMonitoring extends React.Component {
 
                 </Container>
 
-                <MockupProject />
+                <MockupProject projects={this.state.title}/>
                 <Container>
                     <Row className="mt-5 mb-5">
                         <h5 className="subParagraph text-start">Big Problem Solving</h5>

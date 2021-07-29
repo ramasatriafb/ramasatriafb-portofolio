@@ -33,37 +33,40 @@ class MyDoctorProject extends React.Component{
             <HowProjects projects={this.state.title}/>
             <Container className=" col mb-5">
                 <Row >
-                        <h5 className="subParagraph text-start">The Problem</h5>
-                        <Col xs={12} md={12}>
-                        <p className="paragraph-project text-start" style={{marginTop: "37px"}}> Similar applications previously existed with web-based and could only be accessed by the intranet network, which became less mobile with the needs of sales and network analysis when outside the office or on a business trip. so that this application is made fresher with mobile and web which can be accessed anywhere and anytime. There are some problems with this method: </p>
-                        <ol>
-                            <li className="text-start">The unavailability of information about BTS when the sales division is on a realtime and accurate business trip.</li>
-                            <li className="text-start">It takes time for sales and network analysis to find out the location of BTS because you have to manually search for BTS locations.</li>
-                            <li className="text-start">Sales division cannot compare BTS data between BTS at a glance. They need to compare them manually by looking at the data one by one.</li>
-                            <li className="text-start"> Network analyzers must manually analyze the data they get from BTS to determine the next steps / plans for market expansion.</li>
-                            <li className="text-start">Finding the way to the BTS location still has to use a third party application so that it is less effective and efficient</li>
-                        </ol> 
-                        </Col>
-                    </Row>
+                    <h5 className="subParagraph text-start">Features</h5>
+                    <Col xs={12} md={12}>
+                    <p className="paragraph-project text-start" style={{marginTop: "37px"}}> With so many views and ideas for this My Doctor application, I present some basic features to support the needs of this doctor consultation application, which are as follows: </p>
+                    <ol type="A">
+                        <li className="text-start">User Login</li>
+                        <li className="text-start">User Register</li>
+                        <li className="text-start">Category Doctor</li>
+                        <li className="text-start"> Top Rated Doctor</li>
+                        <li className="text-start">Good News</li>
+                        <li className="text-start">Real Time Chat</li>
+                        <li className="text-start">History Messages</li>
+                        <li className="text-start">Hospital Info Address</li>
+                    </ol> 
+                    </Col>
+                </Row>
 
-                    <Row  className="mt-5">
-                        <h5 className="subParagraph text-start">The User & Audience</h5>
-                        <Col xs={12} md={12}>
-                            <p className="paragraph-project text-start" style={{marginTop: "37px"}}> I am  front end developer in this team, and I’m the main and only develop for this mobile app, so i do all the develop work for this app. From mockup, prototype, query , build API's, compiling  and i also involved in the user testing. </p>
-                        </Col>
-                    </Row>
+                <Row  className="mt-5">
+                    <h5 className="subParagraph text-start">Role in the project</h5>
+                    <Col xs={12} md={12}>
+                        <p className="paragraph-project text-start" style={{marginTop: "37px"}}> I am  front end developer in this project, and I’m the main and only develop for this mobile app, so i do all the develop work for this app. From mockup, prototype, query , build API's, compiling  and i also involved in the user testing. </p>
+                    </Col>
+                </Row>
 
-                    <Row  className="mt-5">
-                        <h5 className="subParagraph text-start">Process</h5>
-                        <h5 className="subParagraph text-start">Research & Gathering Requirement</h5>
-                        <Col xs={12} md={12}>
-                            <p className="paragraph-project text-start" style={{marginTop: "37px"}}> Actually what I did was just interviewing and collaborating for data provision and application flow with a network performance staff manager as a communication bridge with the sales manager and network analysis manager for the application development process. Application development is done in an agile manner where application development is made feature per feature which is then tested directly and demonstrated to users and sales and network managers to confirm whether the features are in accordance with what is needed.</p>
-                        </Col>
-                    </Row>
+                <Row  className="mt-5">
+                    <h5 className="subParagraph text-start">Process</h5>
+                    <h5 className="subParagraph text-start">Research & Gathering Requirement</h5>
+                    <Col xs={12} md={12}>
+                        <p className="paragraph-project text-start" style={{marginTop: "37px"}}> In the process of developing this application, I researched several similar telemedicine application designs such as Halodoc and Alodokter from the application flow to the available features. From the results of this research, I designed the application in such a way with the features of the doctor category, chat and info.</p>
+                    </Col>
+                </Row>
 
             </Container>
-            <MockupProject/>
-            <Container>
+            <MockupProject projects={this.state.title}/>
+            {/* <Container>
             <Row  className="mt-5">
                 <h5 className="subParagraph text-start">Problem Solving</h5>
                 <h5 className="subParagraph text-start">Problem 1</h5>
@@ -97,8 +100,8 @@ class MyDoctorProject extends React.Component{
                     <b>Solution: </b>The real time live location tracking and find direction features make it easier for users to find road routes to the desired BTS location with only 2 steps. with the live tracking feature can help users ensure that users are on the right track according to the suggested path in the application.</p>
                 </Col>
             </Row>
-            </Container>
-            <FinalResult/>
+            </Container> */}
+            <FinalResult projects={this.state.title}/>
             <Chance pages={this.props.pages}/>
             <Footer/>
         </div>
