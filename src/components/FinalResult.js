@@ -21,7 +21,7 @@ export default function FinalResult({projects}) {
     }else if(projects === 'My Doctor'){
         text = "After building this application starting from research, mockup design to implementation, the final result of the My Doctor application is created with features that meet the needs of consultation between patients and doctors.";
         poster = "/assets/MYDOCTOR.png";
-        video = "https://drive.google.com/uc?id=1AN35KUAqZqCygZfxKtYbPWKdOh4QmtX1&export=download&authuser=0";
+        video = "https://drive.google.com/uc?id=1VzCqeGrckk9emBqKuq7PVD99Hj7UKHpp&export=download&authuser=0";
         image = "/assets/my-doctor-final2.png";
     }
     return (
