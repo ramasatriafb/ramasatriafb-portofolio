@@ -74,7 +74,7 @@ export default function MockupProject({projects}) {
                         <SRLWrapper options={options}>
                              <img
                                 src={userFlow}
-                                alt="Me"
+                                alt="User Flow"
                                 className="image-flow mt-5" title="User Flow"
                             />
                         </SRLWrapper>

@@ -6,7 +6,7 @@ export default function ProjectList(){
         <>
         <Container>
         <h5 className="tagPro2 text-start mt-5">My Projects</h5>
-                <Row className="position-relative flex mb-5" data-aos="zoom-in">
+                <Row className="position-relative flex" data-aos="zoom-in">
                     <Col md={6}>
                         <Row>
                             <img
@@ -39,7 +39,7 @@ export default function ProjectList(){
                     
                     </Col>  
                 </Row>
-                <Row className="position-relative flex mb-5" data-aos="zoom-in">
+                <Row className="position-relative flex mb-5 mt-3" data-aos="zoom-in">
                     <Col md={6}>
                         <Row>
                             <img
