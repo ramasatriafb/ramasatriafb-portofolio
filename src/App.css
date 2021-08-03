@@ -1,15 +1,14 @@
-
 .App {
   text-align: center;
 }
 .navbar-nav a {
   font-family: 'Poppins';
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   /* text-transform: uppercase; */
   /* text-decoration: none; */
   letter-spacing: 0.15em;
-  
+  line-height: 27px;
   display: inline-block;
   padding: 15px 20px;
   position: relative;
@@ -87,7 +86,7 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
 
 .tagPro2{
   font-weight: bold;
-  font-size: 42px;
+  font-size: 48px;
   margin-top: 8px;
   color: #201F25;
   line-height: 72px;
@@ -136,6 +135,15 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
   width:800px;
   height:auto;
   margin:auto;
+}
+
+.list{
+  font-size: 14px;
+}
+
+.image-problem{
+  height: 400px;
+  width: 800px;
 }
 
 .contact{
@@ -191,6 +199,8 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
 }
 
 .projectsTag{
+  font-size: 36;
+  font-weight: bold;
   margin-top: 4rem;
 }
 .projects-box{
@@ -204,6 +214,10 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
   transition: 2s !important;
   /* background: #C4C4C4; */
   border-radius: 25px;
+}
+
+.project-second{
+  margin-left: 30px !important;
 }
 
 .projects-box:hover {
@@ -410,6 +424,10 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
     margin-top: 0 !important;
   }
 
+  .image-problem{
+    width: 100%;
+    height: auto;
+  }
   .projectsTag{
     margin-top: 1.5rem;
     font-size: 22px;
@@ -424,10 +442,12 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
     height: 250px;
     left: 147px;
     top: 1111px;
-    background: #C4C4C4;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
+  .project-second{
+    margin-left: -10px !important;
+  }
   .text-collaboration{
     font-size: 18px;
     line-height: 22px;
@@ -514,7 +534,7 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
       line-height: 36px;
     }
     .project-image{
-      width: 100%;
+      width: 100% !important;
       height: auto;
       margin: auto;
     }

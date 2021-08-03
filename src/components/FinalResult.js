@@ -26,7 +26,7 @@ export default function FinalResult({projects}) {
     }
     return (
         <>
-            <Container className=" col mb-2">
+            <Container className=" col mb-2 mt-5">
                <Row>
                <h5 className="subParagraph text-start">Final Result</h5>
                <Col xs={12} md={12}>

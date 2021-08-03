@@ -37,7 +37,7 @@ class MagicDekstop extends React.Component{
                         <Col xs={12} md={12}>
                         <p className="paragraph-project text-start" style={{marginTop: "37px"}}>In the MAGIC mobile application, the data presented as well as the user interface arrangement are intended for non-expert users where the data and appearance of the application are made for the public so that expert users lack depth for analysis. and also for the needs of office users who need globally accessible applications where the web platform is chosen to be built into MAGIC Desktop.</p>
                         <p className="paragraph-project text-start">The main problems to be innovation:</p>
-                        <ol>
+                        <ol className="list">
                             <li className="text-start">Availability of filter data for more specific site points with criteria tailored to business needs</li>
                             <li className="text-start">Limited tools to display site points that are wider and free according to the selected region, branch and city</li>
                         </ol> 
@@ -71,7 +71,7 @@ class MagicDekstop extends React.Component{
                     <b>Solution: </b> With the addition of advanced menu filter options, namely show outlets, site colored by Profitability, Red Site Status, Revenue and Payload as well as technology filters available at each site (BTS) such as 2G (DCS, GSM), 3G (U900, U2100,), 4G (L900, L1800, L2100, L2300).</p>
 
                     <img
-                                src="assets/tech-site-menu.gif" style={{height: "300px", width: "600px"}}
+                                src="assets/tech-site-menu.gif" className="image-problem"
                                 alt="Me"
                                 className="mt-2" title="Tech Site Menu"
                             />
@@ -83,9 +83,9 @@ class MagicDekstop extends React.Component{
                     <b>Solution: </b>With the addition of a tree menu filter option for region, branch and city, users can choose which sites (BTS) will be displayed on the map based on a sequential and orderly hierarchy according to the site grouping.</p>
 
                     <img
-                                src="assets/site-branch-menu.PNG" style={{height: "400px", width: "800px"}}
+                                src="assets/site-branch-menu.PNG"
                                 alt="Me"
-                                className="mt-2" title="Tech Site Menu"
+                                className="image-problem mt-2" title="Tech Site Menu"
                             />
                 </Col>
             </Row>

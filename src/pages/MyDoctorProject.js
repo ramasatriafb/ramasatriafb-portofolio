@@ -36,7 +36,7 @@ class MyDoctorProject extends React.Component{
                     <h5 className="subParagraph text-start">Features</h5>
                     <Col xs={12} md={12}>
                     <p className="paragraph-project text-start" style={{marginTop: "37px"}}> With so many views and ideas for this My Doctor application, I present some basic features to support the needs of this doctor consultation application, which are as follows: </p>
-                    <ol type="A">
+                    <ol type="A" className="list">
                         <li className="text-start">User Login</li>
                         <li className="text-start">User Register</li>
                         <li className="text-start">Category Doctor</li>

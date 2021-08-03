@@ -72,7 +72,7 @@ class DNSMonitoring extends React.Component {
                     <Row className="mt-5">
                         <h5 className="subParagraph text-start">Dashboard Features</h5>
                         <Col xs={12} md={12}>
-                            <ol type="A">
+                            <ol type="A" className="list">
                                 <li className="text-start">Number of DNS Connectivity <br/><br/><p>
                                     <b>Explain: </b> Displays the number of DNS connections that have been stored in the Bro-IDS log.</p>
                                     </li>

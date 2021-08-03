@@ -31,11 +31,11 @@ export default function ProjectsHero() {
                        
                         </Col>
                         <Col md={6}>
-                            <Row>
+                            <Row className="project-second">
                             <img data-aos="fade-right"
                             src="/assets/magic-desktop.png"
                             alt="Me"
-                            className="projects-box " style={{marginLeft: "60px"}} title="MAGIC Desktop"
+                            className="projects-box " title="MAGIC Desktop"
                             />
                             <Link to="/magic-desktop-project" className="link-detail mt-5">View Detail Project</Link>
                             </Row>

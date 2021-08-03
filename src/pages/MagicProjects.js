@@ -36,7 +36,7 @@ class MagicProjects extends React.Component{
                         <h5 className="subParagraph text-start">The Problem</h5>
                         <Col xs={12} md={12}>
                         <p className="paragraph-project text-start" style={{marginTop: "37px"}}> Similar applications previously existed with web-based and could only be accessed by the intranet network, which became less mobile with the needs of sales and network analysis when outside the office or on a business trip. so that this application is made fresher with mobile and web which can be accessed anywhere and anytime. There are some problems with this method: </p>
-                        <ol>
+                        <ol className="list">
                             <li className="text-start">The unavailability of information about BTS when the sales division is on a realtime and accurate business trip.</li>
                             <li className="text-start">It takes time for sales and network analysis to find out the location of BTS because you have to manually search for BTS locations.</li>
                             <li className="text-start">Sales division cannot compare BTS data between BTS at a glance. They need to compare them manually by looking at the data one by one.</li>
