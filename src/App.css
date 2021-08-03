@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.container {
+  max-width: 1300px !important;
+}
 .navbar-nav a {
   font-family: 'Poppins';
   font-weight: bold;
