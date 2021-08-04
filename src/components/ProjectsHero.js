@@ -6,7 +6,10 @@ export default function ProjectsHero() {
         <>
             <Container className="projects-section">
                 <Row className="mt-2">
-                    <Col className="col-8 project-ornament "></Col>
+                    <Col className="col-8"></Col>
+                    <div  className="project-ornament "  data-aos="fade-right" data-aos-duration="5000">
+
+                    </div>
                     <Col className="col-4"></Col>
                 </Row>
                 <Row className="position-relative flex">

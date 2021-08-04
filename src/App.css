@@ -191,11 +191,11 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
 
 .project-ornament{
   position: absolute;
-  width: 70%;
+  width: 70% !important;
   height: 660px;
   left: 0px;
   top: 640px;
-  margin-top: 3rem !important;
+  margin-top: 4rem !important;
   background-color: #114A90;
   box-shadow: inset 16px -16px 32px #0b2f5b,
             inset -16px 16px 32px #1765c5;
