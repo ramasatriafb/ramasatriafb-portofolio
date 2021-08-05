@@ -9,7 +9,7 @@ export default class Hero extends Component {
                     <Row  >
                         <Col className="pict " 
                        >
-                            <div className="box-pict" data-aos="zoom-in" data-aos-duration="3000">
+                            <div className="box-pict" data-aos="zoom-in-up" data-aos-duration="3000">
                                 <img
                                 src="/assets/man.png"
                                 alt="Me"
