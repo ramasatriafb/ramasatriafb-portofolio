@@ -6,7 +6,7 @@ export default function Header({pages}) {
         <>
             <Navbar expand="lg">
                 <Container>
-                    <Navbar.Brand className="my-theme" href="#home">ramasatriafb.</Navbar.Brand>
+                    <Navbar.Brand className="my-theme">ramasatriafb.</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav mx-auto ">
                         <Nav className="ms-auto " >
