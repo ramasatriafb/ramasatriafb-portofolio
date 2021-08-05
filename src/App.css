@@ -404,6 +404,80 @@ box-shadow: inset 16px -16px 32px #0b2f5b,
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  /* .pict{
+    display: none;
+  } */
+  .object-cover{
+    width: 50%;
+    height: auto;
+  }
+  .box-pict {
+    width: 40%;
+    top: auto;
+    margin-top: 100px;
+    height: auto;
+    left: 60px;
+  }
+  .object-cover{
+    width: 100%;
+    height: auto;
+  }
+  
+  .tagPro{
+    font-size: 28px;
+  }
+
+  .tagPro2{
+    line-height: 48px;
+    font-size: 36px;
+  }
+  .btn-primary{
+    font-size: 14px !important;
+  }
+
+  .project-ornament{
+    width: 100% !important;
+    top: auto;
+    margin-top: 0 !important;
+  }
+  .row-cols-md-2>* {
+    width: 100%;
+  }
+  .projects-box{
+    height: 250px;
+  }
+
+  .text-collaboration {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .ornament-about{
+    margin-left: 25px;
+  }
+
+  .chance-project{
+    height: 170px;
+  }
+
+  .ornament2{
+    width: 90%;
+    margin-top: -65px;
+  }
+  
+  .text-projects{
+    font-size: 24px;
+    line-height: 28px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -240px;
+  }
+  .email-project {
+    margin-left: -50px;
+    margin-top: -50px;
+}
+}
 @media only screen and (max-width: 767.98px) {
   .contact{
     margin-left: -22px;
