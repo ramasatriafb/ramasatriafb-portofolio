@@ -19,7 +19,7 @@ export default class Hero extends Component {
                         </Col>
                         <Col>
                             <h2 className="tagPro text-start" data-aos="fade-left">ramasatriafb</h2>
-                            <h2 className="tagPro2 text-start" data-aos="fade-left" data-aos-duration="1500" >Frontend developer who love mobile first design.</h2>
+                            <h2 className="tagPro2 text-start" data-aos="fade-left" data-aos-duration="1500" >Frontend Developer who love mobile first design.</h2>
                             <p className="paragraph-pro text-start" data-aos="fade-left" data-aos-duration="2000">
                                 I am currently working at one of the telecommunications companies in Indonesia, namely Telkomsel as a Full Stack Engineer in the Network Performance and Business Process Analyst division who is responsible for presenting business data automatically with automated digitization
                             </p>

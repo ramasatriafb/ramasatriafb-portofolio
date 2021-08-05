@@ -20,7 +20,7 @@ ReactDOM.render(
     <ScrollToTop/>
       <Switch>
         <Route exact path="/" render={props => (
-          <App {...props} component={App} title="ramasatriafb | Frontend developer who love mobile first design" />
+          <App {...props} component={App} title="ramasatriafb | Frontend Developer who love mobile first design" />
         )} />
         <Route path="/projects" render={props => (
           <Projects {...props} component={Projects} title="Projects" />
