@@ -71,9 +71,8 @@ class MagicDekstop extends React.Component{
                     <b>Solution: </b> With the addition of advanced menu filter options, namely show outlets, site colored by Profitability, Red Site Status, Revenue and Payload as well as technology filters available at each site (BTS) such as 2G (DCS, GSM), 3G (U900, U2100,), 4G (L900, L1800, L2100, L2300).</p>
 
                     <img
-                                src="assets/tech-site-menu.gif" className="image-problem"
-                                alt="Me"
-                                className="mt-2" title="Tech Site Menu"
+                                src="assets/tech-site-menu.gif" className="image-problem mt-2"
+                                alt="Solution 1" title="Solution 1"
                             />
                 </Col>
                 <h5 className="subParagraph text-start mt-3">Problem 2</h5>
@@ -84,8 +83,8 @@ class MagicDekstop extends React.Component{
 
                     <img
                                 src="assets/site-branch-menu.PNG"
-                                alt="Me"
-                                className="image-problem mt-2" title="Tech Site Menu"
+                                alt="Solution 2"
+                                className="image-problem mt-2" title="Solution 2"
                             />
                 </Col>
             </Row>
