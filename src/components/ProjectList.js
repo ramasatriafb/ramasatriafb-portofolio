@@ -11,7 +11,7 @@ export default function ProjectList(){
                         <Row>
                             <img
                             src="/assets/magic-app.png"
-                            alt="Me"
+                            alt="MAGIC APP"
                             className="projects-box " title="MAGIC APP"
                             />
                             <Link to="/magic-project" className="link-detail link-detail2"> <img
@@ -26,7 +26,7 @@ export default function ProjectList(){
                         <Row>
                             <img
                             src="/assets/magic-desktop.png"
-                            alt="Me"
+                            alt="MAGIC Desktop"
                             className="projects-box " title="MAGIC Desktop"
                             />
                             <Link to="/magic-desktop-project" className="link-detail link-detail2">
@@ -44,7 +44,7 @@ export default function ProjectList(){
                         <Row>
                             <img
                             src="/assets/DNS-APP.png"
-                            alt="Me"
+                            alt="DNS Monitoring"
                             className="projects-box " title="DNS Monitoring"
                             />
                             <Link to="/dns-monitoring-project" className="link-detail link-detail2"> <img
@@ -59,7 +59,7 @@ export default function ProjectList(){
                         <Row>
                             <img
                             src="/assets/MYDOCTOR.png"
-                            alt="Me"
+                            alt="My Doctor"
                             className="projects-box " title="My Doctor"
                             />
                             <Link to="/my-doctor-project" className="link-detail link-detail2">

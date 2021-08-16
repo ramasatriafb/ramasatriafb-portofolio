@@ -9,7 +9,7 @@ export default function TechSkill() {
                     <h2 className="tagPro2 text-center tag-skill">Tech Skills</h2>
                     <img data-aos="zoom-in"
                         src="/assets/html.png"
-                        alt="HTML" className="icon-skill"
+                        alt="HTML" title="HTML" className="icon-skill"
                         />
                     <img data-aos="zoom-in"
                     src="/assets/css.png"
@@ -18,22 +18,22 @@ export default function TechSkill() {
                     />
                     <img data-aos="zoom-in"
                     src="/assets/js.png"
-                    alt="Javascript"
+                    alt="Javascript" title="Javascript"
                     className="icon-skill"
                     />
                     <img data-aos="zoom-in"
                     src="/assets/vue.png"
-                    alt="Vue JS"
+                    alt="Vue JS" title="Vue JS"
                     className="icon-skill"
                     />
                     <img data-aos="zoom-in"
                     src="/assets/react.png"
-                    alt="React JS"
+                    alt="React JS" title="React JS"
                     className="icon-skill"
                     />
                     <img data-aos="zoom-in"
                     src="/assets/figma.png"
-                    alt="Figma"
+                    alt="Figma" title="Figma"
                     className="icon-skill"
                     />
                     </Col>
